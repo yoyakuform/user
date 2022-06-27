@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>予約フォーム</title>
+    <title>ユーザー登録</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!--jQuery UIの導入 -->
@@ -12,14 +12,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
-  <h2>お客様情報</h2>
-  <form>
-    <p class="mt-3">●氏名</p>
-    <input type= "text" name= "name" >
-    <p class="mt-3">●電話番号</p>
-    <input type= "number" name= "number" >
-    <p class="mt-3">●生年月日</p>
-    <input type= "text" class= "calender" >
+  <form class="w-75 mx-auto">
+
+        <p class="mt-3">以下に予約情報を入力して送信ボタンを押してください</p>
+        <form>
+        <p class="mt-3">●氏名</p>
+        <input type= "text" name= "name" >
+        <p class="mt-3">●電話番号</p>
+        <input type= "number" name= "number" >
+        <p class="mt-3">●生年月日</p>
+        <input type= "text" class= "calender" >
   </form>
 
   <script src="index.js"></script>
