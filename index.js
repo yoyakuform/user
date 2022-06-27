@@ -11,11 +11,11 @@ $(function () {
     
     // 送信
     $('form').submit(function () {
-        var text = $('input[name="text"]').val();
+        var name = $('input[name="name"]').val();
         var date01 = $('input[name="date01"]').val();
         var tel = $('input[name="tel"]').val();
 
-        var msg = `●氏名：${text}\n●生年月日：${date01}\n●電話番号：${tel}`;
+        var msg = `●氏名：${name}\n●生年月日：${date01}\n●電話番号：${tel}`;
         sendText(msg);
 
         return false;
