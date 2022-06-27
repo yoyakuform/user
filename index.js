@@ -9,5 +9,6 @@ $(function(){
     dateFormat: "yy年mm月dd日",
     showAnim: "slideDown",
     changeYear: "true"
+    yearRange: "-100:+0" // 現在日付の100年前～0年後まで選択可能
   });
 });
