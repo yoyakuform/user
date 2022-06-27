@@ -1,5 +1,5 @@
 $(function() {
-  $("date").datepicker( {
+  $("xxdate").datepicker( {
     changeYear: true,  // 年選択をプルダウン化
     changeMonth: true  // 月選択をプルダウン化
   } );
