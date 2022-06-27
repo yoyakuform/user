@@ -3,9 +3,10 @@ $(function () {
     $(function() {
   $("#datepicker").datepicker({
     dateFormat: 'yy-mm-dd D',
-    showAnim: 'bounce',
+    showAnim: 'show',
     changeYear: true,  // 年選択プルダウン
     changeMonth: true  // 月選択プルダウン
+    yearRange: "1922:2022"  // 年の表示範囲
   });
     
     // カレンダー
